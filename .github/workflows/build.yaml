@@ -1,9 +1,12 @@
 name: BUild Suceeds on PR
 
 on:
-  pull_request:
+  push: 
     branches:
       - master
+  pull_request:
+    branches:
+      - another
 
 
 
